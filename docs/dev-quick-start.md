@@ -30,6 +30,9 @@ CREATE DATABASE openaq OWNER openaq;
 CREATE EXTENSION postgis;
 \quit
 ```
-6. Create a local knexfile `cp knexfile.js knexfile-local.js && editor knexfile-local.js`
-
-And you're set.
+6. Open project in VSCode, with Remote Container plugin "Open folder in Container"
+7. Validate with f-ex  
+```
+node index.js --source 'Beijing US Embassy'
+```
+And you're set (Haven't figured out how to connect to the API, but data is flowing to DB ..)
