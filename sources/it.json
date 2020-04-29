@@ -89,8 +89,22 @@
     "country": "IT",
     "region": "Lombardy",
     "timezone": "Etc/GMT-1",
-    "description": "Air quality data from Campania region, Italy",
+    "description": "Air quality data from Lombardy region, Italy",
     "sourceURL": "https://www.arpalombardia.it/Pages/ARPA_Home_Page.aspx",
+    "contacts": [
+      "info@openaq.org"
+    ],
+    "active": true
+  },
+  {
+    "url": "https://bollettino.appa.tn.it/aria/opendata/json/last/",
+    "adapter": "arpaeT",
+    "name": "Arpae Trento",
+    "country": "IT",
+    "region": "Trento",
+    "timezone": "Etc/GMT-1",
+    "description": "Air quality data from Trento region, Italy",
+    "sourceURL": "http://www.appa.provincia.tn.it/",
     "contacts": [
       "info@openaq.org"
     ],
